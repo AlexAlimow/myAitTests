@@ -41,21 +41,11 @@ def registerSuiteTask(String taskName, String suiteFile) {
             suites suiteFile
         }
 
-        // ✅ Правильный способ передать свойство JVM
         systemProperty 'browser', project.findProperty('browser') ?: 'chrome'
-
-        // Для дебага
-        doFirst {
-            println "======================================="
-            println "Запуск тестов в браузере: ${project.findProperty('browser') ?: 'chrome'}"
-            println "Suite: $suiteFile"
-            println "======================================="
-        }
 
         outputs.upToDateWhen { false }
     }
 }
 
-// Регистрация suite'ов
 registerSuiteTask('regression', 'src/test/resources/regression.xml')
 registerSuiteTask('quick', 'src/test/resources/testng.xml')
