@@ -1,0 +1,11 @@
+12:17:26.145 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\gorlu\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+12:17:27.774 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using msedgedriver 142.0.3595.69 (resolved driver for Edge 142)
+12:17:27.792 [main] INFO  i.g.bonigarcia.wdm.online.Downloader -- Downloading https://msedgewebdriverstorage.blob.core.windows.net/edgewebdriver/142.0.3595.69/edgedriver_win64.zip
+12:17:31.498 [main] INFO  i.g.bonigarcia.wdm.online.Downloader -- Extracting driver from compressed file edgedriver_win64.zip
+12:17:31.721 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.edge.driver as C:\Users\gorlu\.cache\selenium\msedgedriver\win64\142.0.3595.69\msedgedriver.exe
+12:17:34.571 [main] INFO  com.myAit.core.TestBase -- Start test allButtonsOnItPageLeadsToCareerConsultationPageTest with data: []
+12:17:50.734 [main] INFO  com.myAit.core.TestBase -- PASSED: allButtonsOnItPageLeadsToCareerConsultationPageTest
+12:17:50.735 [main] INFO  com.myAit.core.TestBase -- Stop test
+12:17:50.735 [main] INFO  com.myAit.core.TestBase -- **************************************************

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression" verbose="1" parallel="false">
+    <test name="Positive">
+        <classes>
+            <class name="com.myAit.tests.CareerConsultationItTests"/>
+            <class name="com.myAit.tests.CareerConsultationTests"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,9 @@
+13:22:47.606 [Test worker] INFO  org.testng.internal.Utils -- [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+13:22:48.386 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+13:22:48.414 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\gorlu\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+13:22:50.609 [Test worker] INFO  com.myAit.core.TestBase -- ▶ START test: allButtonsOnItPageLeadsToCareerConsultationPageTest with data: []
+13:23:08.287 [Test worker] INFO  com.myAit.core.TestBase -- ✅ PASSED: allButtonsOnItPageLeadsToCareerConsultationPageTest
+13:23:08.287 [Test worker] INFO  com.myAit.core.TestBase -- ──────────────────────────────────────────────
+13:23:08.293 [Test worker] INFO  com.myAit.core.TestBase -- ▶ START test: allButtonsOnAccountingPageLeedsToCareerConsultationPageTest with data: []
+13:23:26.635 [Test worker] INFO  com.myAit.core.TestBase -- ✅ PASSED: allButtonsOnAccountingPageLeedsToCareerConsultationPageTest
+13:23:26.636 [Test worker] INFO  com.myAit.core.TestBase -- ──────────────────────────────────────────────

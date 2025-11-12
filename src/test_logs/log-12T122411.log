@@ -1,0 +1,6 @@
+12:24:12.542 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using msedgedriver 142.0.3595.69 (resolved driver for Edge 142)
+12:24:12.574 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.edge.driver as C:\Users\gorlu\.cache\selenium\msedgedriver\win64\142.0.3595.69\msedgedriver.exe
+12:24:14.909 [Test worker] INFO  com.myAit.core.TestBase -- Start test allButtonsOnItPageLeadsToCareerConsultationPageTest with data: []
+12:24:33.502 [Test worker] INFO  com.myAit.core.TestBase -- PASSED: allButtonsOnItPageLeadsToCareerConsultationPageTest
+12:24:33.506 [Test worker] INFO  com.myAit.core.TestBase -- Stop test
+12:24:33.506 [Test worker] INFO  com.myAit.core.TestBase -- **************************************************

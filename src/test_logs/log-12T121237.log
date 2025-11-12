@@ -1,0 +1,3 @@
+12:12:38.268 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+12:12:38.300 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\gorlu\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+12:12:40.310 [Test worker] INFO  com.myAit.core.TestBase -- Start test allButtonsOnItPageLeadsToCareerConsultationPageTest with data: []

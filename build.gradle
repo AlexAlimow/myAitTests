@@ -1,0 +1,61 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Selenium / Appium
+    implementation 'org.seleniumhq.selenium:selenium-java:4.13.0'
+    implementation 'io.appium:java-client:8.6.0'
+
+    // TestNG
+    implementation 'org.testng:testng:7.11.0'
+    testImplementation 'org.testng:testng:7.11.0'
+
+    // Logback
+    implementation 'ch.qos.logback:logback-classic:1.5.19'
+
+    // WebDriver Manager
+    implementation 'io.github.bonigarcia:webdrivermanager:6.3.2'
+}
+
+test {
+    useTestNG()
+}
+
+def registerSuiteTask(String taskName, String suiteFile) {
+    tasks.register(taskName, Test) {
+        group = 'verification'
+        description = "Run TestNG suite: $suiteFile"
+
+        testClassesDirs = sourceSets.test.output.classesDirs
+        classpath = sourceSets.test.runtimeClasspath
+
+        useTestNG() {
+            suites suiteFile
+        }
+
+        // ✅ Правильный способ передать свойство JVM
+        systemProperty 'browser', project.findProperty('browser') ?: 'chrome'
+
+        // Для дебага
+        doFirst {
+            println "======================================="
+            println "Запуск тестов в браузере: ${project.findProperty('browser') ?: 'chrome'}"
+            println "Suite: $suiteFile"
+            println "======================================="
+        }
+
+        outputs.upToDateWhen { false }
+    }
+}
+
+// Регистрация suite'ов
+registerSuiteTask('regression', 'src/test/resources/regression.xml')
+registerSuiteTask('quick', 'src/test/resources/testng.xml')

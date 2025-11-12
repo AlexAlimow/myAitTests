@@ -1,0 +1,18 @@
+10:42:14.911 [main] WARN  org.testng.xml.TestNGContentHandler -- It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\aittr\QA\myAitTests\src\test\resources\testng-multi-browser.xml] otherwise TestNG may fail or not work as expected.
+10:42:15.207 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\aittr\QA\myAitTests\src\test\resources\testng-multi-browser.xml
+
+10:42:15.806 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+10:42:15.832 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\gorlu\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+10:42:17.359 [TestNG-tests-2] INFO  com.myAit.core.TestBase -- Start test allButtonsOnItPageLeadsToCareerConsultationPageTest with data: []
+10:42:17.359 [TestNG-tests-1] INFO  com.myAit.core.TestBase -- Start test allButtonsOnItPageLeadsToCareerConsultationPageTest with data: []
+10:42:17.359 [TestNG-tests-3] INFO  com.myAit.core.TestBase -- Start test allButtonsOnItPageLeadsToCareerConsultationPageTest with data: []
+10:42:22.603 [TestNG-tests-2] ERROR com.myAit.core.TestBase -- FAILED: allButtonsOnItPageLeadsToCareerConsultationPageTest
+10:42:22.603 [TestNG-tests-2] INFO  com.myAit.core.TestBase -- Stop test
+10:42:22.603 [TestNG-tests-2] INFO  com.myAit.core.TestBase -- **************************************************
+10:42:22.664 [TestNG-tests-1] ERROR com.myAit.core.TestBase -- FAILED: allButtonsOnItPageLeadsToCareerConsultationPageTest
+10:42:22.664 [TestNG-tests-1] INFO  com.myAit.core.TestBase -- Stop test
+10:42:22.664 [TestNG-tests-1] INFO  com.myAit.core.TestBase -- **************************************************
+10:42:32.563 [TestNG-tests-3] INFO  com.myAit.core.TestBase -- PASSED: allButtonsOnItPageLeadsToCareerConsultationPageTest
+10:42:32.563 [TestNG-tests-3] INFO  com.myAit.core.TestBase -- Stop test
+10:42:32.564 [TestNG-tests-3] INFO  com.myAit.core.TestBase -- **************************************************

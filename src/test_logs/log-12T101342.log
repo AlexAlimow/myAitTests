@@ -1,0 +1,9 @@
+10:13:43.227 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\gorlu\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+10:13:43.812 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+10:13:43.844 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\gorlu\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+10:13:45.243 [main] INFO  com.myAit.core.TestBase -- Start test allButtonsOnItPageLeadsToCareerConsultationPageTest with data: []
+10:14:01.224 [main] INFO  com.myAit.core.TestBase -- PASSED: allButtonsOnItPageLeadsToCareerConsultationPageTest
+10:14:01.224 [main] INFO  com.myAit.core.TestBase -- Stop test
+10:14:01.224 [main] INFO  com.myAit.core.TestBase -- **************************************************

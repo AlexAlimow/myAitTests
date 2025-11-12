@@ -1,0 +1,9 @@
+10:01:54.346 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\gorlu\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+10:01:55.151 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+10:01:55.212 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\gorlu\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+10:01:57.517 [main] INFO  com.myAit.core.TestBase -- Start test allButtonsOnAccountingPageLeedsToCareerConsultationPageTest with data: []
+10:02:03.056 [main] ERROR com.myAit.core.TestBase -- FAILED: allButtonsOnAccountingPageLeedsToCareerConsultationPageTest
+10:02:03.056 [main] INFO  com.myAit.core.TestBase -- Stop test
+10:02:03.056 [main] INFO  com.myAit.core.TestBase -- **************************************************

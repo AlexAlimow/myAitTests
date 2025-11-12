@@ -1,0 +1,29 @@
+10:40:16.192 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\aittr\QA\myAitTests\src\test\resources\testng-multi-browser.xml
+
+10:40:17.551 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+10:40:17.582 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\gorlu\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+10:40:19.430 [TestNG-tests-1] INFO  com.myAit.core.TestBase -- Start test allButtonsOnAccountingPageLeedsToCareerConsultationPageTest with data: []
+10:40:19.430 [TestNG-tests-3] INFO  com.myAit.core.TestBase -- Start test allButtonsOnAccountingPageLeedsToCareerConsultationPageTest with data: []
+10:40:19.430 [TestNG-tests-2] INFO  com.myAit.core.TestBase -- Start test allButtonsOnAccountingPageLeedsToCareerConsultationPageTest with data: []
+10:40:25.275 [TestNG-tests-3] ERROR com.myAit.core.TestBase -- FAILED: allButtonsOnAccountingPageLeedsToCareerConsultationPageTest
+10:40:25.275 [TestNG-tests-2] ERROR com.myAit.core.TestBase -- FAILED: allButtonsOnAccountingPageLeedsToCareerConsultationPageTest
+10:40:25.275 [TestNG-tests-3] INFO  com.myAit.core.TestBase -- Stop test
+10:40:25.275 [TestNG-tests-2] INFO  com.myAit.core.TestBase -- Stop test
+10:40:25.275 [TestNG-tests-3] INFO  com.myAit.core.TestBase -- **************************************************
+10:40:25.275 [TestNG-tests-2] INFO  com.myAit.core.TestBase -- **************************************************
+10:40:25.283 [TestNG-tests-3] INFO  com.myAit.core.TestBase -- Start test allButtonsOnItPageLeadsToCareerConsultationPageTest with data: []
+10:40:25.286 [TestNG-tests-2] INFO  com.myAit.core.TestBase -- Start test allButtonsOnItPageLeadsToCareerConsultationPageTest with data: []
+10:40:28.667 [TestNG-tests-3] ERROR com.myAit.core.TestBase -- FAILED: allButtonsOnItPageLeadsToCareerConsultationPageTest
+10:40:28.668 [TestNG-tests-3] INFO  com.myAit.core.TestBase -- Stop test
+10:40:28.668 [TestNG-tests-1] ERROR com.myAit.core.TestBase -- FAILED: allButtonsOnAccountingPageLeedsToCareerConsultationPageTest
+10:40:28.668 [TestNG-tests-3] INFO  com.myAit.core.TestBase -- **************************************************
+10:40:28.668 [TestNG-tests-1] INFO  com.myAit.core.TestBase -- Stop test
+10:40:28.668 [TestNG-tests-1] INFO  com.myAit.core.TestBase -- **************************************************
+10:40:28.674 [TestNG-tests-1] INFO  com.myAit.core.TestBase -- Start test allButtonsOnItPageLeadsToCareerConsultationPageTest with data: []
+10:40:30.984 [TestNG-tests-1] ERROR com.myAit.core.TestBase -- FAILED: allButtonsOnItPageLeadsToCareerConsultationPageTest
+10:40:30.985 [TestNG-tests-1] INFO  com.myAit.core.TestBase -- Stop test
+10:40:30.985 [TestNG-tests-1] INFO  com.myAit.core.TestBase -- **************************************************
+10:40:41.047 [TestNG-tests-2] ERROR com.myAit.core.TestBase -- FAILED: allButtonsOnItPageLeadsToCareerConsultationPageTest
+10:40:41.048 [TestNG-tests-2] INFO  com.myAit.core.TestBase -- Stop test
+10:40:41.048 [TestNG-tests-2] INFO  com.myAit.core.TestBase -- **************************************************

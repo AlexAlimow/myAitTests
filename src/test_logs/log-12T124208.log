@@ -1,0 +1,10 @@
+12:42:10.224 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+12:42:10.240 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\gorlu\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+12:42:12.021 [Test worker] INFO  com.myAit.core.TestBase -- Start test allButtonsOnItPageLeadsToCareerConsultationPageTest with data: []
+12:42:26.893 [Test worker] INFO  com.myAit.core.TestBase -- PASSED: allButtonsOnItPageLeadsToCareerConsultationPageTest
+12:42:26.895 [Test worker] INFO  com.myAit.core.TestBase -- Stop test
+12:42:26.897 [Test worker] INFO  com.myAit.core.TestBase -- **************************************************
+12:42:26.902 [Test worker] INFO  com.myAit.core.TestBase -- Start test allButtonsOnAccountingPageLeedsToCareerConsultationPageTest with data: []
+12:42:41.881 [Test worker] INFO  com.myAit.core.TestBase -- PASSED: allButtonsOnAccountingPageLeedsToCareerConsultationPageTest
+12:42:41.882 [Test worker] INFO  com.myAit.core.TestBase -- Stop test
+12:42:41.882 [Test worker] INFO  com.myAit.core.TestBase -- **************************************************

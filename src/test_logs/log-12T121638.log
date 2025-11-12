@@ -1,0 +1,9 @@
+12:16:39.040 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\gorlu\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+12:16:40.870 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+12:16:40.882 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.gecko.driver as C:\Users\gorlu\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+12:16:45.735 [main] INFO  com.myAit.core.TestBase -- Start test allButtonsOnItPageLeadsToCareerConsultationPageTest with data: []
+12:16:56.977 [main] INFO  com.myAit.core.TestBase -- PASSED: allButtonsOnItPageLeadsToCareerConsultationPageTest
+12:16:56.977 [main] INFO  com.myAit.core.TestBase -- Stop test
+12:16:56.977 [main] INFO  com.myAit.core.TestBase -- **************************************************
