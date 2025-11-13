@@ -1,8 +1,8 @@
 package com.myAit.core;
 
 import com.myAit.pages.AccountingPage;
-import com.myAit.pages.CareerConsultationPage;
 import com.myAit.pages.ItPage;
+import com.myAit.pages.UsaPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -18,8 +18,8 @@ public class ApplicationManager {
     public static SoftAssert softAssert;
 
     AccountingPage accountingPage;
-    CareerConsultationPage careerPage;
     ItPage itPage;
+    UsaPage usaPage;
 
 
 
@@ -47,8 +47,9 @@ public class ApplicationManager {
         softAssert = new SoftAssert();
 
         accountingPage = new AccountingPage(driver);
-        careerPage = new CareerConsultationPage(driver);
+
         itPage = new ItPage(driver);
+        usaPage = new UsaPage(driver);
     }
 
     public void stop() {
@@ -58,6 +59,8 @@ public class ApplicationManager {
     }
 
     public AccountingPage getAccountingPage() { return accountingPage; }
-    public CareerConsultationPage getCareerPage() { return careerPage; }
     public ItPage getItPage() { return itPage; }
+
+    public UsaPage getUsaPage() { return usaPage; }
+
 }

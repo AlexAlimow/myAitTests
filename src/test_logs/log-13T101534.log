@@ -1,0 +1,8 @@
+10:15:35.349 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+10:15:35.393 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.gecko.driver as C:\Users\gorlu\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+10:15:40.555 [Test worker] INFO  com.myAit.core.TestBase -- ▶ START test: allButtonsOnItPageLeadsToCareerConsultationPageTest with data: []
+10:15:49.666 [Test worker] INFO  com.myAit.core.TestBase -- PASSED: allButtonsOnItPageLeadsToCareerConsultationPageTest
+10:15:49.668 [Test worker] INFO  com.myAit.core.TestBase -- ──────────────────────────────────────────────
+10:15:49.686 [Test worker] INFO  com.myAit.core.TestBase -- ▶ START test: allButtonsOnAccountingPageLeedsToCareerConsultationPageTest with data: []
+10:15:59.194 [Test worker] INFO  com.myAit.core.TestBase -- PASSED: allButtonsOnAccountingPageLeedsToCareerConsultationPageTest
+10:15:59.194 [Test worker] INFO  com.myAit.core.TestBase -- ──────────────────────────────────────────────

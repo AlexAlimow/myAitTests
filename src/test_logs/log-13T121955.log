@@ -1,0 +1,8 @@
+12:19:55.772 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\gorlu\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+12:19:56.386 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+12:19:56.401 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\gorlu\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+12:19:58.195 [main] INFO  com.myAit.core.TestBase -- ▶ START test: itPageConsultationButtonsTest with data: []
+12:20:15.482 [main] INFO  com.myAit.core.TestBase -- PASSED: itPageConsultationButtonsTest
+12:20:15.483 [main] INFO  com.myAit.core.TestBase -- ──────────────────────────────────────────────

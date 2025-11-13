@@ -2,6 +2,7 @@ package com.myAit.core;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -55,5 +56,24 @@ public class BaseHelper {
             throw new RuntimeException(e);
         }
     }
+
+    // Сохраняем параметры URL в sessionStorage
+    public void saveUrlParamsToSessionStorage(String url) {
+        if (!url.contains("?")) return;
+
+        String query = url.split("\\?")[1];
+        String[] pairs = query.split("&");
+
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        for (String pair : pairs) {
+            String[] keyValue = pair.split("=");
+            String key = keyValue[0];
+            String value = keyValue.length > 1 ? keyValue[1] : "";
+            js.executeScript(String.format(
+                    "sessionStorage.setItem('%s', '%s');", key, value));
+        }
+    }
+
+
 
 }

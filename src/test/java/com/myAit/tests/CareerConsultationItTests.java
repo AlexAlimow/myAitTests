@@ -6,8 +6,9 @@ import org.testng.annotations.Test;
 public class CareerConsultationItTests extends TestBase {
 
     @Test
-    public void allButtonsOnItPageLeadsToCareerConsultationPageTest() {
-        app.getItPage().openItPage("param1=value1&param2=value2");
-        app.getItPage().verifyAllConsultationButtons("param1=value1&param2=value2");
+    public void itPageSessionStorageAndButtonsTest() {
+        String queryParams = "param1=value1&param2=value2";
+        app.getItPage().openPage(queryParams);
+        app.getItPage().verifyAllConsultationButtons(queryParams);
     }
 }

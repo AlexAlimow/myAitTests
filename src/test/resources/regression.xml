@@ -5,6 +5,8 @@
         <classes>
             <class name="com.myAit.tests.CareerConsultationItTests"/>
             <class name="com.myAit.tests.CareerConsultationTests"/>
+            <class name="com.myAit.tests.CareerConsultationUsaTests"/>
+
         </classes>
     </test>
 </suite>

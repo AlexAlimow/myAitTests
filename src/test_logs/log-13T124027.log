@@ -1,0 +1,11 @@
+12:40:29.968 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+12:40:30.019 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.gecko.driver as C:\Users\gorlu\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+12:40:35.644 [Test worker] INFO  com.myAit.core.TestBase -- ▶ START test: itPageSessionStorageAndButtonsTest with data: []
+12:40:49.056 [Test worker] INFO  com.myAit.core.TestBase -- PASSED: itPageSessionStorageAndButtonsTest
+12:40:49.058 [Test worker] INFO  com.myAit.core.TestBase -- ──────────────────────────────────────────────
+12:40:49.064 [Test worker] INFO  com.myAit.core.TestBase -- ▶ START test: AccountingPageSessionStorageAndButtonsTest with data: []
+12:41:01.174 [Test worker] INFO  com.myAit.core.TestBase -- PASSED: AccountingPageSessionStorageAndButtonsTest
+12:41:01.174 [Test worker] INFO  com.myAit.core.TestBase -- ──────────────────────────────────────────────
+12:41:01.180 [Test worker] INFO  com.myAit.core.TestBase -- ▶ START test: buttonLeadsToSignFormAndButton with data: []
+12:41:07.762 [Test worker] INFO  com.myAit.core.TestBase -- PASSED: buttonLeadsToSignFormAndButton
+12:41:07.762 [Test worker] INFO  com.myAit.core.TestBase -- ──────────────────────────────────────────────

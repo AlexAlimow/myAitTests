@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.myAit.tests.CareerConsultationUsaTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-13T11:41:01.185Z" hostname="ALEX" time="6.573">
+  <properties/>
+  <testcase name="buttonLeadsToSignFormAndButton" classname="com.myAit.tests.CareerConsultationUsaTests" time="6.573"/>
+  <system-out><![CDATA[12:41:01.180 [Test worker] INFO  com.myAit.core.TestBase -- ▶ START test: buttonLeadsToSignFormAndButton with data: []
+Popup с куками закрыт.
+Кнопка 'Получить консультацию' нажата.
+Форма консультации видна: true
+12:41:07.762 [Test worker] INFO  com.myAit.core.TestBase -- PASSED: buttonLeadsToSignFormAndButton
+12:41:07.762 [Test worker] INFO  com.myAit.core.TestBase -- ──────────────────────────────────────────────
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

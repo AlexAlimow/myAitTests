@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.myAit.tests.CareerConsultationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-13T09:12:39.353Z" hostname="ALEX" time="16.019">
+<testsuite name="com.myAit.tests.CareerConsultationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-13T11:40:49.066Z" hostname="ALEX" time="12.108">
   <properties/>
-  <testcase name="allButtonsOnAccountingPageLeedsToCareerConsultationPageTest" classname="com.myAit.tests.CareerConsultationTests" time="16.019"/>
-  <system-out><![CDATA[10:12:39.352 [Test worker] INFO  com.myAit.core.TestBase -- ▶ START test: allButtonsOnAccountingPageLeedsToCareerConsultationPageTest with data: []
-10:12:55.372 [Test worker] INFO  com.myAit.core.TestBase -- PASSED: allButtonsOnAccountingPageLeedsToCareerConsultationPageTest
-10:12:55.372 [Test worker] INFO  com.myAit.core.TestBase -- ──────────────────────────────────────────────
+  <testcase name="AccountingPageSessionStorageAndButtonsTest" classname="com.myAit.tests.CareerConsultationTests" time="12.108"/>
+  <system-out><![CDATA[12:40:49.064 [Test worker] INFO  com.myAit.core.TestBase -- ▶ START test: AccountingPageSessionStorageAndButtonsTest with data: []
+Текущий URL: https://www.my-ait.com/career-consultation
+sessionStorage param_1: value_1
+sessionStorage param_2: value_2
+Текущий URL: https://www.my-ait.com/career-consultation
+sessionStorage param_1: value_1
+sessionStorage param_2: value_2
+Текущий URL: https://www.my-ait.com/career-consultation
+sessionStorage param_1: value_1
+sessionStorage param_2: value_2
+Текущий URL: https://www.my-ait.com/career-consultation
+sessionStorage param_1: value_1
+sessionStorage param_2: value_2
+Текущий URL: https://www.my-ait.com/career-consultation
+sessionStorage param_1: value_1
+sessionStorage param_2: value_2
+Текущий URL: https://www.my-ait.com/career-consultation
+sessionStorage param_1: value_1
+sessionStorage param_2: value_2
+Текущий URL: https://www.my-ait.com/career-consultation
+sessionStorage param_1: value_1
+sessionStorage param_2: value_2
+12:41:01.174 [Test worker] INFO  com.myAit.core.TestBase -- PASSED: AccountingPageSessionStorageAndButtonsTest
+12:41:01.174 [Test worker] INFO  com.myAit.core.TestBase -- ──────────────────────────────────────────────
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

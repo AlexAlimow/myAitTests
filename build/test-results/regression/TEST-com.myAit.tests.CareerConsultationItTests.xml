@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.myAit.tests.CareerConsultationItTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-13T09:12:24.450Z" hostname="ALEX" time="14.879">
+<testsuite name="com.myAit.tests.CareerConsultationItTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-13T11:40:35.644Z" hostname="ALEX" time="13.394">
   <properties/>
-  <testcase name="allButtonsOnItPageLeadsToCareerConsultationPageTest" classname="com.myAit.tests.CareerConsultationItTests" time="14.879"/>
-  <system-out><![CDATA[10:12:24.450 [Test worker] INFO  com.myAit.core.TestBase -- ▶ START test: allButtonsOnItPageLeadsToCareerConsultationPageTest with data: []
-10:12:39.344 [Test worker] INFO  com.myAit.core.TestBase -- PASSED: allButtonsOnItPageLeadsToCareerConsultationPageTest
-10:12:39.344 [Test worker] INFO  com.myAit.core.TestBase -- ──────────────────────────────────────────────
+  <testcase name="itPageSessionStorageAndButtonsTest" classname="com.myAit.tests.CareerConsultationItTests" time="13.394"/>
+  <system-out><![CDATA[12:40:35.644 [Test worker] INFO  com.myAit.core.TestBase -- ▶ START test: itPageSessionStorageAndButtonsTest with data: []
+Текущий URL: https://www.my-ait.com/career-consultation
+sessionStorage param1: value1
+sessionStorage param2: value2
+Текущий URL: https://www.my-ait.com/career-consultation
+sessionStorage param1: value1
+sessionStorage param2: value2
+Текущий URL: https://www.my-ait.com/career-consultation
+sessionStorage param1: value1
+sessionStorage param2: value2
+Текущий URL: https://www.my-ait.com/career-consultation
+sessionStorage param1: value1
+sessionStorage param2: value2
+Текущий URL: https://www.my-ait.com/career-consultation
+sessionStorage param1: value1
+sessionStorage param2: value2
+Текущий URL: https://www.my-ait.com/career-consultation
+sessionStorage param1: value1
+sessionStorage param2: value2
+12:40:49.056 [Test worker] INFO  com.myAit.core.TestBase -- PASSED: itPageSessionStorageAndButtonsTest
+12:40:49.058 [Test worker] INFO  com.myAit.core.TestBase -- ──────────────────────────────────────────────
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
