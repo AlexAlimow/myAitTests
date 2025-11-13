@@ -59,19 +59,33 @@ public class BaseHelper {
 
     // Сохраняем параметры URL в sessionStorage
     public void saveUrlParamsToSessionStorage(String url) {
-        if (!url.contains("?")) return;
+        String[] allowedKeys = {"utm_medium","utm_campaign","utm_content","utm_term","utm_id",
+                "fbclid","gclid","ttclid","ymclid","yclid"};
 
-        String query = url.split("\\?")[1];
-        String[] pairs = query.split("&");
+        String query = url.contains("?") ? url.split("\\?")[1] : "";
+        String[] pairs = query.isEmpty() ? new String[0] : query.split("&");
 
-        JavascriptExecutor js = (JavascriptExecutor) driver;
+        StringBuilder jsObject = new StringBuilder("{");
         for (String pair : pairs) {
-            String[] keyValue = pair.split("=");
-            String key = keyValue[0];
-            String value = keyValue.length > 1 ? keyValue[1] : "";
-            js.executeScript(String.format(
-                    "sessionStorage.setItem('%s', '%s');", key, value));
+            String[] kv = pair.split("=");
+            String key = kv[0];
+            String value = kv.length > 1 ? kv[1] : "";
+            for (String allowed : allowedKeys) {
+                if (allowed.equals(key)) {
+                    jsObject.append("\"").append(key).append("\":\"").append(value).append("\",");
+                }
+            }
         }
+        if (jsObject.length() > 1) jsObject.setLength(jsObject.length() - 1); // убрать последнюю запятую
+        jsObject.append("}");
+
+        String storageKey = "platform_app_675bbcef-18d8-41f5-800e-131ec9e08762_c57021d5-8161-4bc9-9a6c-920a006a7fe7";
+        String finalJs = String.format(
+                "sessionStorage.setItem('%s', JSON.stringify({trackingData:%s}));",
+                storageKey, jsObject.toString()
+        );
+
+        ((JavascriptExecutor) driver).executeScript(finalJs);
     }
 
 

@@ -23,6 +23,8 @@ dependencies {
 
     // WebDriver Manager
     implementation 'io.github.bonigarcia:webdrivermanager:6.3.2'
+    //json
+    implementation 'org.json:json:20230618'
 }
 
 test {
