@@ -3,6 +3,7 @@ package com.myAit.core;
 import org.openqa.selenium.remote.Browser;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.slf4j.MDC;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 
@@ -29,16 +30,19 @@ public class TestBase {
 
     @BeforeMethod(alwaysRun = true)
     public void startTest(Method method, Object[] p) {
+        MDC.put("testName", method.getName()); //добавляем имя теста в контекст
         logger.info("▶ START test: {} with data: {}", method.getName(), Arrays.asList(p));
     }
 
     @AfterMethod(alwaysRun = true)
     public void stopTest(ITestResult result) {
+        String testName = result.getMethod().getMethodName();
         if (result.isSuccess()) {
-            logger.info("PASSED: {}", result.getMethod().getMethodName());
+            logger.info("PASSED: {}", testName);
         } else {
-            logger.error("FAILED: {}", result.getMethod().getMethodName());
+            logger.error("FAILED: {}", testName);
         }
         logger.info("──────────────────────────────────────────────");
+        MDC.clear(); //очищаем контекст
     }
 }

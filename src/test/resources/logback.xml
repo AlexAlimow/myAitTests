@@ -1,12 +1,14 @@
 <configuration>
     <timestamp key="bySecond" datePattern="dd'T'HHmmss"/>
 
+    <!-- === Консольный вывод === -->
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
             <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} -%kvp- %msg%n</pattern>
         </encoder>
     </appender>
 
+    <!-- === Обычный лог-файл === -->
     <appender name="FILE" class="ch.qos.logback.core.FileAppender">
         <file>src/test_logs/log-${bySecond}.log</file>
         <append>true</append>
@@ -16,8 +18,20 @@
         </encoder>
     </appender>
 
+    <!-- === CSV-лог для Google Sheets === -->
+    <appender name="CSV_FILE" class="ch.qos.logback.core.FileAppender">
+        <file>src/test_logs/test-results-${bySecond}.csv</file>
+        <append>false</append>
+        <encoder>
+            <!-- колонки: дата, уровень, имя теста, сообщение -->
+            <pattern>"%date","%level","%X{testName}","%msg"%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- === Общие настройки логирования === -->
     <root level="info">
         <appender-ref ref="STDOUT"/>
         <appender-ref ref="FILE"/>
+        <appender-ref ref="CSV_FILE"/>
     </root>
 </configuration>

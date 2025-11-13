@@ -1,0 +1,8 @@
+"2025-11-13 15:19:36,130","INFO","","[TestNG] Running:
+  C:\Users\gorlu\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+"
+"2025-11-13 15:19:36,786","INFO","","Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)"
+"2025-11-13 15:19:36,818","INFO","","Exporting webdriver.chrome.driver as C:\Users\gorlu\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe"
+"2025-11-13 15:19:39,448","INFO","buttonLeadsToSignFormAndButton","▶ START test: buttonLeadsToSignFormAndButton with data: []"
+"2025-11-13 15:19:47,883","INFO","buttonLeadsToSignFormAndButton","PASSED: buttonLeadsToSignFormAndButton"
+"2025-11-13 15:19:47,884","INFO","buttonLeadsToSignFormAndButton","──────────────────────────────────────────────"

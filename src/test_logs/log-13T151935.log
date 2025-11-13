@@ -1,0 +1,8 @@
+15:19:36.130 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\gorlu\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+15:19:36.786 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+15:19:36.818 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\gorlu\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+15:19:39.448 [main] INFO  com.myAit.core.TestBase -- ▶ START test: buttonLeadsToSignFormAndButton with data: []
+15:19:47.883 [main] INFO  com.myAit.core.TestBase -- PASSED: buttonLeadsToSignFormAndButton
+15:19:47.884 [main] INFO  com.myAit.core.TestBase -- ──────────────────────────────────────────────
