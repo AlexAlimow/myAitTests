@@ -29,23 +29,30 @@ test {
     useTestNG()
 }
 
-def registerSuiteTask(String taskName, String suiteFile) {
-    tasks.register(taskName, Test) {
-        group = 'verification'
-        description = "Run TestNG suite: $suiteFile"
+task qa(type: Test) {
+    testClassesDirs = sourceSets.test.output.classesDirs
+    classpath = sourceSets.test.runtimeClasspath
+    useTestNG() {
+        suites 'src/test/resources/testng.xml'
+    }
 
-        testClassesDirs = sourceSets.test.output.classesDirs
-        classpath = sourceSets.test.runtimeClasspath
-
-        useTestNG() {
-            suites suiteFile
-        }
-
-        systemProperty 'browser', project.findProperty('browser') ?: 'chrome'
-
-        outputs.upToDateWhen { false }
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
     }
 }
 
-registerSuiteTask('regression', 'src/test/resources/regression.xml')
-registerSuiteTask('quick', 'src/test/resources/testng.xml')
+def registerTask(String taskName, String suitePath) {
+    tasks.register(taskName,Test) {
+        testClassesDirs = sourceSets.test.output.classesDirs
+        classpath = sourceSets.test.runtimeClasspath
+        useTestNG() {
+            suites suitePath
+        }
+        if (project.hasProperty('browser')) {
+            systemProperty 'browser',"${browser}"
+        }
+    }
+}
+
+registerTask('regression', 'src/test/resources/regression.xml')
+registerTask('quick', 'src/test/resources/testng.xml')

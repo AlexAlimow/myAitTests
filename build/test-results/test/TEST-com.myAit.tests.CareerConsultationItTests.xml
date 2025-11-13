@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.myAit.tests.CareerConsultationItTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-13T09:11:04.156Z" hostname="ALEX" time="15.26">
+  <properties/>
+  <testcase name="allButtonsOnItPageLeadsToCareerConsultationPageTest" classname="com.myAit.tests.CareerConsultationItTests" time="15.26"/>
+  <system-out><![CDATA[10:11:04.156 [Test worker] INFO  com.myAit.core.TestBase -- ▶ START test: allButtonsOnItPageLeadsToCareerConsultationPageTest with data: []
+10:11:19.430 [Test worker] INFO  com.myAit.core.TestBase -- PASSED: allButtonsOnItPageLeadsToCareerConsultationPageTest
+10:11:19.432 [Test worker] INFO  com.myAit.core.TestBase -- ──────────────────────────────────────────────
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

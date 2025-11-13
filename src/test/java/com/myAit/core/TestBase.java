@@ -1,5 +1,6 @@
 package com.myAit.core;
 
+import org.openqa.selenium.remote.Browser;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.ITestResult;
@@ -9,13 +10,13 @@ import java.lang.reflect.Method;
 import java.util.Arrays;
 
 public class TestBase {
-    protected static ApplicationManager app;
+    protected static ApplicationManager app =
+            new ApplicationManager(System.getProperty("browser", Browser.CHROME.browserName()));
+
     Logger logger = LoggerFactory.getLogger(TestBase.class);
 
     @BeforeSuite(alwaysRun = true)
     public void setUp() {
-        String browser = System.getProperty("browser", "chrome");
-        app = new ApplicationManager(browser);
         app.init();
     }
 

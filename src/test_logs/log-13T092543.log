@@ -1,0 +1,6 @@
+09:25:44.704 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\gorlu\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+09:25:44.813 [main] INFO  com.myAit.core.TestBase -- ▶ START test: allButtonsOnItPageLeadsToCareerConsultationPageTest with data: []
+09:25:44.823 [main] ERROR com.myAit.core.TestBase -- FAILED: allButtonsOnItPageLeadsToCareerConsultationPageTest
+09:25:44.823 [main] INFO  com.myAit.core.TestBase -- ──────────────────────────────────────────────
